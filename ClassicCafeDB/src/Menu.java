@@ -3,6 +3,7 @@ public class Menu {
 	private String itemName;
 	private Double price;
 	private int Mid;
+	private int quantity;
 	public String getItemName() {
 		return itemName;
 	}
@@ -24,7 +25,7 @@ public class Menu {
 	
 	public Menu() {}
 	
-	public Menu(String itemName, Double price, int mid)
+	public Menu(int Mid, String itemName, Double price, int quantity)
 	{
 		this.itemName=itemName;
 		this.Mid= mid;
